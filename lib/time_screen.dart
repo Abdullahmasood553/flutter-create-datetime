@@ -12,9 +12,10 @@ class TimeScreen extends StatelessWidget {
       final format = DateFormat("HH:mm:ss");
     return SafeArea(
       child: Scaffold(
-        backgroundColor: Colors.white,
         appBar: AppBar(
           title: Text('Time Field'),
+          backgroundColor: Colors.indigo[300],
+          centerTitle: true,
         ),
         body: Container(
           child: Padding(

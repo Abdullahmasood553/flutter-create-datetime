@@ -7,12 +7,13 @@ class DateScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final format = DateFormat("yyyy-MM-dd");
+     final format = DateFormat("yyyy-MM-dd");
+    // final format = DateFormat.yMd();
     return SafeArea(
       child: Scaffold(
-        backgroundColor: Colors.white,
         appBar: AppBar(
           title: Text('Date Field'),
+          centerTitle: true,
         ),
         body: Container(
           child: Padding(
