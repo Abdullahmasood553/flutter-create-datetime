@@ -16,8 +16,9 @@ class _DateTimeScreenState extends State<DateTimeScreen> {
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.amber[600],
+          backgroundColor: Colors.indigo[600],
           title: Text('Date Time Field'),
+          centerTitle: true,
         ),
         body: Container(
           child: Padding(
