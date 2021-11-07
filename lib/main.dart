@@ -1,5 +1,6 @@
+import 'package:date_time/date_time_screen.dart';
+import 'package:date_time/time_screen.dart';
 import 'package:flutter/material.dart'; 
-import 'home_screen.dart';
 
 void main() => runApp(MyApp());
 
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomeScreen(),
+      home: DateTimeScreen(),
     );
   }
 }
