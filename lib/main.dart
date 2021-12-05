@@ -1,7 +1,10 @@
+import 'package:date_time/date_formats_screen.dart';
 import 'package:date_time/date_screen.dart';
 import 'package:date_time/date_time_screen.dart';
 import 'package:date_time/time_screen.dart';
-import 'package:flutter/material.dart'; 
+import 'package:flutter/material.dart';
+
+import 'date_format_test.dart'; 
 
 void main() => runApp(MyApp());
 
@@ -15,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.indigo,
       ),
-      home: DateScreen(),
+      home: DateTest(),
     );
   }
 }
